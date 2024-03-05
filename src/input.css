@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "anton";
+    src: url(./assets/fonts/Anton.woff2);
+}
+@font-face {
+    font-family: "staff-regular";
+    src: url(./assets/fonts/Staff-Regular.woff2);
+}
