@@ -642,6 +642,11 @@ video {
   z-index: 4;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .my-\[10vh\] {
   margin-top: 10vh;
   margin-bottom: 10vh;
@@ -926,8 +931,8 @@ video {
   background-color: transparent;
 }
 
-.bg-\[url\(\.\/assets\/65737026531ac2845a25d426_glitchy-bg\.avif\)\] {
-  background-image: url(./assets/65737026531ac2845a25d426_glitchy-bg.avif);
+.bg-\[url\(\.\/assets\/\/Images\/glitchy-bg\.avif\)\] {
+  background-image: url(./assets//Images/glitchy-bg.avif);
 }
 
 .bg-cover {
@@ -956,10 +961,6 @@ video {
   padding: 1.25rem;
 }
 
-.p-\[1px\] {
-  padding: 1px;
-}
-
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -973,6 +974,11 @@ video {
 .px-\[5vw\] {
   padding-left: 5vw;
   padding-right: 5vw;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .py-10 {

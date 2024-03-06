@@ -12,7 +12,7 @@
   </head>
   <body>
     <main
-      class="main container p-[1px] relative bg-black text-white overflow-hidden font-anton"
+      class="main container mx-auto py-1 relative bg-black text-white overflow-hidden font-anton"
     >
       <nav
         class="absolute z-50 top-0 min-h-[10vh] w-full flex items-center justify-between px-[5vw]"
@@ -117,12 +117,14 @@
         class="page1 w-full min-h-screen rounded-[50px_50px_0px_0px] relative z-10 overflow-hidden bg-[#102423]"
       >
         <img
-          src="./assets/65737026531ac2845a25d426_glitchy-bg.avif"
+          src="./assets//Images/glitchy-bg.avif"
           alt=""
-          class="absolute top-0 z-[2] w-full h-full object-cover rounded-[50px_50px_0px_0px]"
+          class="page1__img absolute top-0 z-[2] w-full h-full object-cover rounded-[50px_50px_0px_0px]"
         />
         <div
-          class="z-[3] py-[5vw] w-full flex flex-col items-center leading-none text-redDark drop-shadow-[0_0_5px_red]"
+          data-scroll
+          data-scroll-speed="2"
+          class="page1__headings z-[3] py-[5vw] w-full flex flex-col items-center leading-none text-redDark drop-shadow-[0_0_5px_red]"
         >
           <h1 class="text-[10em] font-anton">A CULTURE DRIVEN</h1>
           <h1 class="text-[10em] font-anton">CREATIVE</h1>
@@ -144,7 +146,7 @@
           autoplay
           loop
           muted
-          class="w-full h-ful object-cover"
+          class="play__vdo--bg w-full h-ful object-cover"
         ></video>
         <div
           class="w-full h-full absolute top-0 flex items-center justify-center"
@@ -152,18 +154,22 @@
           <h1
             class="text-[36em] font-medium font-anton uppercase text-center leading-none flex justify-between w-full"
           >
-            <div>p</div>
-            <div class="mr-[.5em]">l</div>
-            <div>a</div>
-            <div>y</div>
+            <div class="play__heading heading--fade-left">p</div>
+            <div class="play__heading heading--fade-left mr-[.5em]">l</div>
+            <div class="play__heading heading--fade-right">a</div>
+            <div class="play__heading heading--fade-right">y</div>
           </h1>
           <div class="w-fit absolute">
             <div class="flex">
               <div class="text-right">
-                <h2 class="text-[4em] leading-none font-anton text-redDark">
+                <h2
+                  class="play__heading-sm heading-sm--fade-left text-[4em] leading-none font-anton text-redDark"
+                >
                   THE
                 </h2>
-                <h2 class="text-[4em] leading-none font-anton text-redDark">
+                <h2
+                  class="play__heading-sm heading-sm--fade-left text-[4em] leading-none font-anton text-redDark"
+                >
                   POWER
                 </h2>
               </div>
@@ -174,8 +180,14 @@
                   autoplay
                   muted
                 ></video>
-                <h2 class="text-[4em] leading-none font-anton text-red">OF</h2>
-                <h2 class="text-[4em] leading-none font-anton text-red">
+                <h2
+                  class="play__heading-sm heading-sm--fade-right text-[4em] leading-none font-anton text-red"
+                >
+                  OF
+                </h2>
+                <h2
+                  class="play__heading-sm heading-sm--fade-right text-[4em] leading-none font-anton text-red"
+                >
                   CULTURE
                 </h2>
               </div>
@@ -185,21 +197,34 @@
       </section>
 
       <!-- { -->
+      <!-- latest section  -->
       <!-- } -->
       <section
         class="latest p-5 pb-[15vh] bg-red rounded-[50px_50px_0px_0px] flex flex-col items-center text-center font-anton leading-none"
       >
-        <h1 class="latest__heading text-[20em]">LATEST</h1>
-        <h2 class="latest__sub-heading text-[5em]">work</h2>
-        <h2 class="latest__sub-heading text-[5em]">trendss</h2>
-        <h2 class="latest__sub-heading text-[5em]">news</h2>
+        <h1 class="latest__heading text-[20em] uppercase overflow-hidden">
+          <span class="bottom--in inline-block">LATEST</span>
+        </h1>
+        <h2 class="latest__sub-heading text-[5em] uppercase overflow-hidden">
+          <span class="bottom--in inline-block">work</span>
+        </h2>
+        <h2 class="latest__sub-heading text-[5em] uppercase overflow-hidden">
+          <span class="bottom--in inline-block">trendss</span>
+        </h2>
+        <h2 class="latest__sub-heading text-[5em] uppercase overflow-hidden">
+          <span class="bottom--in inline-block">news</span>
+        </h2>
       </section>
+
       <!-- { -->
       <!-- } -->
       <section class="data"></section>
       <!-- { -->
       <!-- } -->
 
+      <!-- [ -->
+      <!-- culture section -->
+      <!-- ] -->
       <section
         data-scroll
         data-scroll-speed="-1"
@@ -219,12 +244,12 @@
           <div class="culture_heading--one relative">
             <img
               class="absolute z-[4] top-[30%] left-[5%] w-[.6em] aspect-[8/5] object-cover translate-y-5 rotate-[10deg] origin-top-right"
-              src="https://images.prismic.io/hero-collective/c15cc01b-0ef2-4367-a2fe-420daebcfe7d_culture_hack_image+resized.jpg?auto=compress,format&w=280&fm=webp&q=80"
+              src="./assets/Images/culture_hack_image+resized.avif"
               alt=""
             /><span class="relative z-[3]">CULTURE</span>
             <img
               class="absolute z-[2] top-[10%] right-[2%] w-[.8em] aspect-[5/4] object-cover translate-y-5 rotate-[10deg]"
-              src="https://images.prismic.io/hero-collective/350b91c6-e90b-4504-83f9-cd37e7556bc5_footer_contact.jpg?auto=compress,format&w=375&fm=webp&q=80"
+              src="./assets/Images/footer_contact.avif"
               alt=""
             />
           </div>
@@ -234,7 +259,7 @@
             <span>HA</span>
             <img
               class="w-[1.5em] aspect-[8/5] object-cover translate-y-5 origin-bottom-left rotate-[-5deg]"
-              src="https://images.prismic.io/hero-collective/cb785ba2-d506-4bcf-977a-82df59c6febd_Culture+Hack.jpg?auto=compress,format&w=750&fm=webp&q=80"
+              src="./assets//Images/Culture+Hack.jpg"
               alt=""
             />
             <span>CK</span>
@@ -254,8 +279,12 @@
         </div>
       </section>
 
+      <!-- [ -->
+      <!-- news section incomplete -->
+      <!-- ] -->
+
       <!--   <section
-        class="news relative py-[10vh] rounded-[50px_50px_0px_0px] bg-black bg-[url(./assets/65737026531ac2845a25d426_glitchy-bg.avif)] bg-cover flex flex-col gap-5 justify-center items-center"
+        class="news relative py-[10vh] rounded-[50px_50px_0px_0px] bg-black bg-[url(./assets//Images/glitchy-bg.avif)] bg-cover flex flex-col gap-5 justify-center items-center"
       >
         <h1
           class="absolute z-0 top-0 text-[45em] leading-none text-center uppercase font-anton text-redDark drop-shadow blur"
@@ -319,6 +348,10 @@
         </article>
       </section> -->
 
+      <!-- [ -->
+      <!-- footer section -->
+      <!-- ] -->
+
       <footer
         class="p-5 w-full min-h-screen rounded-[50px_50px_0px_0px] bg-black"
       >
@@ -330,7 +363,7 @@
           <div>r</div>
           <div>o</div>
         </h1>
-        <div class="footer__links flex gap-1 mb-5">
+        <div class="footer__links flex gap-1 mb-5 relative overflow-hidden">
           <!-- {[ -->
           <!-- data here -->
           <!-- ]} -->
@@ -358,6 +391,8 @@
           </h5>
         </div>
       </footer>
+
+      <!-- <div class="h-screen bg-black"></div> -->
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
